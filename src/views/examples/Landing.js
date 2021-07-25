@@ -17,27 +17,27 @@
 */
 import React from "react";
 // nodejs library that concatenates classes
-import classnames from "classnames";
-import promo1 from "assets/img/theme/promo-1.png";
-import cardImg from "assets/img/theme/img-1-1200x1000.jpg";
+// import classnames from "classnames";
+// import promo1 from "assets/img/theme/promo-1.png";
+import cardImg from "assets/img/theme/Project 201.png";
 import ill2 from "assets/img/ill/ill-2.svg";
-import team1 from "assets/img/theme/team-1-800x800.jpg";
-import team2 from "assets/img/theme/team-2-800x800.jpg";
-import team3 from "assets/img/theme/team-3-800x800.jpg";
-import team4 from "assets/img/theme/team-4-800x800.jpg";
+// import team1 from "assets/img/theme/team-1-800x800.jpg";
+// import team2 from "assets/img/theme/team-2-800x800.jpg";
+// import team3 from "assets/img/theme/team-3-800x800.jpg";
+// import team4 from "assets/img/theme/team-4-800x800.jpg";
 
 // reactstrap components
 import {
   Badge,
-  Button,
+  // Button,
   Card,
   CardBody,
   CardImg,
-  FormGroup,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+  // FormGroup,
+  // Input,
+  // InputGroupAddon,
+  // InputGroupText,
+  // InputGroup,
   Container,
   Row,
   Col,
@@ -45,10 +45,10 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+import SimpleFooter from "components/Footers/SimpleFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+// import Download from "../IndexSections/Download.js";
 
 class Landing extends React.Component {
   state = {};
@@ -284,7 +284,7 @@ class Landing extends React.Component {
                               publish
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              201 final
+                              301
                             </Badge>
                           </div>
                           {/* <Button
@@ -360,7 +360,123 @@ class Landing extends React.Component {
                               publish
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              201 final
+                              301 final
+                            </Badge>
+                          </div>
+                          {/* <Button
+                            className="mt-4"
+                            color="warning"
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button> */}
+                        </CardBody>
+                      </Card>
+                    </Col>
+                  </Row>
+                  <Row className="row-grid">
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-info rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <h6 className="text-info text-uppercase">
+                            Future Project
+                          </h6>
+                          <p className="description mt-3">
+                            Some future project to publish for the Code Fellows
+                            Class 401.
+                          </p>
+                          <div>
+                            <Badge color="info" pill className="mr-1">
+                              design
+                            </Badge>
+                            <Badge color="info" pill className="mr-1">
+                              code
+                            </Badge>
+                            <Badge color="info" pill className="mr-1">
+                              publish
+                            </Badge>
+                            <Badge color="info" pill className="mr-1">
+                              401
+                            </Badge>
+                          </div>
+                          {/* <Button
+                            className="mt-4"
+                            color="warning"
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button> */}
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-info rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <h6 className="text-info text-uppercase">
+                            future Project
+                          </h6>
+                          <p className="description mt-3">
+                            Some future project to publish for the Code Fellows
+                            Class 401.
+                          </p>
+                          <div>
+                            <Badge color="info" pill className="mr-1">
+                              design
+                            </Badge>
+                            <Badge color="info" pill className="mr-1">
+                              code
+                            </Badge>
+                            <Badge color="info" pill className="mr-1">
+                              publish
+                            </Badge>
+                            <Badge color="info" pill className="mr-1">
+                              401
+                            </Badge>
+                          </div>
+                          {/* <Button
+                            className="mt-4"
+                            color="warning"
+                            href="#pablo"
+                            onClick={(e) => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button> */}
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-info rounded-circle mb-4">
+                            <i className="ni ni-planet" />
+                          </div>
+                          <h6 className="text-info text-uppercase">
+                            Final Project
+                          </h6>
+                          <p className="description mt-3">
+                            Some future project to publish for the Code Fellows
+                            401 Class Final.
+                          </p>
+                          <div>
+                            <Badge color="warning" pill className="mr-1">
+                              design
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              code
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              publish
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              401 final
                             </Badge>
                           </div>
                           {/* <Button
@@ -403,12 +519,11 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                        mindSpace Blog
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                        Your single source blogging site to keep track of all
+                        your learning notes. Save all your important thoughts.
                       </p>
                     </blockquote>
                   </Card>
@@ -418,28 +533,28 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Our customers</h3>
+                    <h3>Key Benefits</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                      Don't know where to keep track of your notes and thoughts?
+                      mindSpace is your solution.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Record your notes to key development packages that can be
+                      filtered. Asign difficulty levels and mark entries as
+                      favorite.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Entries can be edited or deleted. Newest entries will show
+                      at the top. Filter to show only favorites and ability to
+                      filter by difficulty level. A must have and use site for
+                      anyone new to coding.
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      A beautiful UI design that is clean and crisp
                     </a>
                   </div>
                 </Col>
@@ -466,11 +581,14 @@ class Landing extends React.Component {
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
+                      <h4 className="display-3 text-white">Background</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        Tech is every changing and this change is what excites
+                        me the most to innovate software that is simple to
+                        create, clean to read and use, reusable and user
+                        friendly. There is always more than one way to reach
+                        your end goal so think outside the box as much as
+                        possible.
                       </p>
                     </div>
                   </div>
@@ -483,21 +601,21 @@ class Landing extends React.Component {
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-success">
-                            Awesome Support
-                          </h5>
+                          <h5 className="title text-success">My Drive</h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            I have a passion for software development as I enjoy
+                            being challenged by the numerous problem solving
+                            needs, logical thinking requirements, team work
+                            collaboration and, most of all, the satisfaction of
+                            the client receiving their final product.
                           </p>
-                          <a
+                          {/* <a
                             className="text-success"
                             href="#pablo"
                             onClick={(e) => e.preventDefault()}
                           >
                             Learn more
-                          </a>
+                          </a> */}
                         </div>
                       </div>
                     </CardBody>
@@ -511,21 +629,21 @@ class Landing extends React.Component {
                           </div>
                         </div>
                         <div className="pl-4">
-                          <h5 className="title text-warning">
-                            Modular Components
-                          </h5>
+                          <h5 className="title text-warning">My Goals</h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            I would like to blend my years of experience in the
+                            cargo logistics industry and port management into
+                            software development to streamline the vast amount
+                            of data and processes that are used for the movement
+                            of commerce world wide.
                           </p>
-                          <a
+                          {/* <a
                             className="text-warning"
                             href="#pablo"
                             onClick={(e) => e.preventDefault()}
                           >
                             Learn more
-                          </a>
+                          </a> */}
                         </div>
                       </div>
                     </CardBody>
@@ -551,7 +669,7 @@ class Landing extends React.Component {
             </div>
           </section>
         </main>
-        <CardsFooter />
+        <SimpleFooter />
       </>
     );
   }
