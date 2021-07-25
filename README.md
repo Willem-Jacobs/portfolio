@@ -25,3 +25,12 @@ Site template from:
 */
 -->
 
+Number and name of feature: All steps from the 4 Trello cards
+
+Estimate of time needed to complete: 3 hours
+
+Start time: Various as I took longer breaks as needed
+
+Finish time: 8:30pm
+
+Actual time needed to complete: With the breaks about 5 hours
